@@ -68,7 +68,7 @@ button:hover {
 
 body {
     background-color: black;
-    color: #001d6b; /* Cambia el color del texto a blanco para que sea legible en el fondo negro */
+    color: #ffffff; /* Cambia el color del texto a blanco para que sea legible en el fondo negro */
 }
 
 .box-container {
@@ -116,6 +116,7 @@ body {
 
 .container {
     width: 80%;
+    background-color: #242a30;
     margin: auto;
     overflow: hidden;
 }
@@ -136,7 +137,7 @@ body {
     width: 30%;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #a19f9f;
     border-radius: 5px;
     text-align: center;
 }
@@ -157,6 +158,10 @@ img {
 /* Estilos para el formulario */
 .appointment-form {
     margin-top: 20px;
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+ 
 }
 
 form {
@@ -174,15 +179,17 @@ input {
 button {
     margin-top: 10px;
     padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #acacac;
+    color: rgb(19, 18, 18);
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: transform 0.3s;
+      justify-content: center;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #7b8086;
 }
 
 /* Estilos para redes sociales */
