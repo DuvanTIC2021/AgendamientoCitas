@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/stylee.jpg.png');
+    background-size: contain; /* Ajusta el tamaño de la imagen para que quepa completamente dentro del contenedor */
+    /*background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    /* Fondo semi-transparente */
+    background-color: rgba(255, 255, 255, 1); /* Ajusta el último valor para cambiar la opacidad */
+}
+
+
+.top-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+
+.description, .appointment-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-form {
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #001d6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+    color: #001d6b; /* Cambia el color del texto a blanco para que sea legible en el fondo negro */
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+.social-media {
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px; /* Ajusta el margen entre los íconos según tu preferencia */
+}
+.social-icon img {
+    width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    margin: 0 10px; /* Agrega espacio entre las imágenes */
+}
