@@ -1,6 +1,6 @@
 <?php
     
-$conexion=mysqli_connect("localhost","root","","agendamiento_citas");
+$conexion=mysqli_connect("localhost","root","","style_agendamiento");
 
 
     ?>

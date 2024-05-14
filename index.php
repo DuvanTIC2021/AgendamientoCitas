@@ -49,7 +49,7 @@
             <img src="img/style2.png" alt="Descripción de la imagen" style="width: 80%;">
         </div>
         <div class="appointment-form">
-            <h2>Agendar Cita</h2>
+            <h2>Agendar Citas</h2>
             <form action="submit.php" method="post">
                 <label for="location">Lugar:</label>
                 <select id="location" name="location">
